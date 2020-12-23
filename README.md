@@ -2,7 +2,7 @@
 
 This project base on bloc implementation in your project.Call data from web Api an parse it respective model and use it on UI.
 
-## Getting Started
+## Geting Started
 
 So before dive deep in this project , first we need to understand what Bloc is , why use it & how to use it.
 
@@ -18,7 +18,7 @@ Think Bloc as a vending machine where you put the money and detail of product yo
 
    Event : Input from UI .
 
-   State : Output hanld to. show data on UI
+   State : Output mean  show data on UI
   
 <p align="center"><img src="https://miro.medium.com/max/1146/1*3dTdRj_EQK5OM3gUs80Q5g.png" width="350" alt="accessibility text"></p>
  
@@ -29,14 +29,14 @@ In Model we have structure of our api repsonse , In Bloc we fire event get data 
 When and event fire form ui it fetch call provider to provider data . In Bloc floder when event <b> TodoFetch </b> initiate form <b>TodoList</b> initialser it goes to bloc and call <b> mapEventToState </b> function. This event call </b>todoProvider</b> of our provider type and call getlist() method of provider. Method (getlist) call getListOfUser from api .
 
 
-Once result return form api , the state called FetchedTodoSuccessedState and data save it state
+Once result return form api , the state called FetchedTodoSuccessedState and data save it state.
 
 
-A few resources to get you started if this is your first Flutter project:
+#Project Dependancies:
+   
+   - [rxdart](https://pub.dev/packages/rxdart)
+   - [dio](https://pub.dev/packages/dio)
+   - [flutter_bloc](https://pub.dev/packages/flutter_bloc)
+   - [retrofit](https://pub.dev/packages/retrofit)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
