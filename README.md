@@ -1,15 +1,12 @@
-# BLOC - State Mangement
+# BLOC - State Mangement Flutter
 
 This project base on bloc implementation in your project.Call data from web Api an parse it respective model and use it on UI.
 
-# Over Project
-
-
-
-
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+So before go into deep in this project , first we need to understand what Bloc is , why use it & how to use it.
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
